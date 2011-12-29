@@ -1,0 +1,56 @@
+html {
+    /*background: url("../images/cows.jpg") no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+
+body {
+    font: 1em monospace;
+    color: black;
+    width: 60%;
+    height: 100%;
+    text-align: justify;
+    margin: auto;
+}
+
+div#container {
+    position: relative; /* needed for footer positioning*/
+    margin: 0 auto; /* center, not in IE5 */
+ 
+    height: auto !important; /* real browsers */
+    height: 100%; /* IE6: treaded as min-height*/
+    min-height: 100%; /* real browsers */
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.menu_item_active {
+    color: white;
+}
+
+.menu_item_inactive {
+    color: blue;
+}
+
+.content { 
+    padding-bottom: 5em;
+}
+
+footer{
+    text-align: center;
+}
+
+.footer_info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

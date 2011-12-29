@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Diego Vargas" />
+    
+    <link rel="stylesheet"
+	  type="text/css"
+	  href="/stylesheets/awesome.css"
+	  title="brown coop style sheet">
+
+    <!--link rel="icon"
+	  type="image/jpeg" 
+	  href="/images/favicon.jpeg"-->
+
+    <title>{{ page.title }}</title>
+
+  </head>
+
+  <body>
+    <div id='container'>
+
+    <header>
+      <nav>
+	
+      <!--img src='/images/brown_banner.gif'-->
+
+      <div name='menu_bar'>
+
+      {% if page.title == 'Home' %}
+      <span class='menu_item_active'><a href='/'>Diego</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/'>Diego</a></span>
+      {% endif %}
+
+      {% if page.title == 'Projects' %}
+      <span class='menu_item_active'><a href='/projects.html'>Projects</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/projects.html'>Projects</a></span>
+      {% endif %}
+
+      {% if page.title == 'About' %}
+      <span class='menu_item_active'><a href='/about.html'>About</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/about.html'>About</a></span>
+      {% endif %}
+      
+      </div>
+      </nav>
+
+    </header>
+    
+    <div class='content'>
+    {{ content }}
+    </div>
+    
+    <footer>
+      <div class='footer_info'>
+      <p><!--a href="http://github.com/d136o/Brown-Coop-Online">oh yeah</a--></p>
+      </div>
+    </footer>
+
+    </div>
+  </body>
+</html>

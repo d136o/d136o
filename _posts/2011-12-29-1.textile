@@ -1,0 +1,8 @@
+---
+layout: post
+title: oh hi
+---
+
+What do I want to do with this site?
+
+I want to keep it simple, I'll try to write about things I learn about and link to projects I might be working on :)
