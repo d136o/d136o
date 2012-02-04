@@ -1,6 +1,6 @@
 ---
 layout: post
-title: oh hi
+title: hi
 ---
 
 What do I want to do with this site?

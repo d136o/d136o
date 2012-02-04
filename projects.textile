@@ -6,9 +6,6 @@ title: Projects
 Here's something exiting happening on the side:
 
 
-*Hardware Hackathon*
+*"Hardware Hackathon":http://ptonhacks.net*
 
-I was able to secure some funding from the Keller Center's  Norman D. Kurtz '58 Fund (awesome place for students to receive support on entrepenurial pursuits). The idea is to have small groups of students submit project proposals for projects that will cost <= $200, we'll buy the components and provide tools and space, and they'll assemble them during the hackathon weekend. What kinds of projects are we looking for? Simple projects that can be put together over a weekend, we were inspired by projects based on the arduino, but I don't think we'll limit it strictly to that. I'll post a website soon. The hackathon is scheduled for the Spring of 2012.
-
-
-
+I was able to secure some funding from the "Keller Center's":http://commons.princeton.edu/kellercenter/index.html Norman D. Kurtz '58 Fund (awesome place for students to receive support on entrepenurial pursuits). The idea is to have small groups of students submit project proposals for projects that will cost <= $200, we'll buy the components and provide tools and space, then participants will hack away and bring their creations to life during the hackathon weekend. What kinds of projects are we looking for? Simple projects that can be put together over a weekend, we were inspired by projects based on the arduino but we won't limiting projects strictly to that. Checkout "ptonhacks.net":http://ptonhacks.net . The hackathon is scheduled for the Spring of 2012.
