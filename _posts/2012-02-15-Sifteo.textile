@@ -1,0 +1,70 @@
+---
+layout: post
+title: "Sifteo"
+---
+
+Notes on talk by Jeevan Kalanithi, founder of sifteo
+
+Stanford ugrad, then MIT media lab. After grad school, went to California to do design consulting type company ("just hung out and did cool projects").
+
+Some main points:
+
+* Hardware-software startup: definitely possible today
+* Be able to explain via video, no audio, in 30 seconds. 
+* consulting vs starting a business: completely different
+
+h1. Siftables
+
+* I can't believe we thought twice about this: opportunity to do a talk at TED conference.
+* Regret minimization
+* CEO should care about three things (and maybe 8 more): money, people, vision.
+* when there is a hard problem, before asking for help make a proposal, doesn't have to be completely right but helps things get done.
+* starting a company: have a cofounder
+* design inspiration:
+** Like to make decisions based on "culture" as opposed to technical architecture.
+** Apple, nintendo
+* it's a mistake to think that you're coming up with something new from scratch, it's more like drawing from many sources of inspiration
+
+h1. About a hardware company
+
+* make hardware, business model is simple: make something, and sell it for more than what it cost
+* More complicated and more expensive
+* Software iterates on two week basis, hardware iterates more on like quarterly basis
+* Long term view is very important
+* minimum viable idea can be distracting
+* When a team is large (>= 5 people) it really needs to define when something is successful/done and when it isn't
+* dragon innovation
+
+h1. Hardware creative process
+
+* start playing with a mockup, i.e. don't immediately start laying out a circuit board
+* make a mock up, play with it, will give you an idea of the produce that you want to make
+* while a prototype can be expensive, but cost really matters in the final product
+* don't jump into building it too quickly, and iterate because it's hard to get it right the first time
+
+h1. Hardware interface
+
+* prototypes done in freemont
+* facilities and know how is abroad, it's not in the US
+* mistakes by manufacturers aren't necessarily lack of diligence, just not enough bandwidth for a conversation
+* would love to talk to someone who can do high volume in the US, but just doesn't think it's possible
+
+h1. Q: IP differences between hardware and software
+
+* IP how important is it to your company? biotech 10, webapp, 2, hardware 5-7.
+* BUT patent will not make or break sifteo
+
+h1. Q: distribution
+
+* getting them to stores, it's important: yes people are shopping online, but it's becoming true more slowly than mostly everyone thinks
+
+h1. Q: having an SDK
+
+* a guy found a leaked SDK and made an application to make sentences
+* then litle girl learned how to make sentences, rewarding.
+
+
+h1. Q: Competition
+
+* red ocean: bloody ocean, people fight on features. blue ocean: virgin territory, not fighting competition on the features.
+

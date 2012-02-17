@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Raymie Stata - Yahoo" 
+---
+
+Talk by "Raymie Stata":http://en.wikipedia.org/wiki/Raymie_Stata , ex-CTO at Yahoo
+
+h1. Some tech roles:
+
+* Managers:
+** manage commitment. People depend on product, they make it happen on time.
+
+* Individual Contributor (ic):
+** i shaped
+
+* Architects:
+** t shaped
+
+
+* There are some companies that don't have an architect branch. (google)
+
+
+h1. More in depth about Architect:
+
+* It's all about *managing trade offs*
+
+* tech debt: making not-the-most-elegant solution and deciding to leave
+the elegant solution for the future. Customers will never be happy
+about paying down the debt, they want solutions.
+
+* need to understand how software evolves over time. Understand how to
+get what you want done working with what you've already got.
+
+* Startups: they don't teach you how get things done in large
+companies.
+
+* As an architect people have to trust that you're doing the best for
+the company, not just your career.
+
+
+
+
