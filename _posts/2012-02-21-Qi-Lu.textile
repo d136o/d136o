@@ -1,0 +1,207 @@
+---
+layout: post
+title: "Qi Lu - Microsoft" 
+---
+
+Talk by "Qi Lu":http://en.wikipedia.org/wiki/Qi_Lu, Microsoft Executive - Bing
+
+
+h1. Tech to Biz Transition
+
+* Speed of learning: it's everything.
+* Mental models: seeing enough to connect the dots. 
+* fundamentally, a shift in going from analytical to creative
+
+h1. Lessons Learned
+
+h3. Microsoft perspective
+
+* Leadership Model
+** some know everything needed to make a product
+** some know how to interact with marketing
+* MS is moving towards an increasingly technical leadership
+* 9.7 billion dollars on research
+* high IQ's are fungilble. Applying problem solving to different fields.
+
+h3. Ebay story
+
+* Technology matters only to a certain extent.
+* ebay got, that yahoo didn't: seller ratings.
+* customer trust mattered more than being able to run the site on a smaller number of servers
+* core business of ebay is not going anywhere, amazon won.
+* amazon was better at building a brand than ebay.
+* The brand is very important: "if I push the button, I know the thing will get here"
+* you don't get to know these things the first time around
+
+h3. YouTube:
+
+* Qi run tech for Yahoo video
+* YouTube used flash video, yahoo used an acuired solution (guy made more money than jerry yang haha)
+* importance of smooth user experience
+* can youtube be its own business without google's cashflow?
+* yahoo had the chance to buy youtube, but let it go because they didn't want to damage relationship with media
+
+h3. search story:
+
+* first yahoo search: grep (!!!)
+* yahoo made a mistake, in may 2000 switched search providers. then google grew
+* google at the time didn't have a business model
+* overture, first company to make money on search, allows you to bid on ads. (a money machine!)
+* they approached google 
+* business model innovations are very very important. They turned down the offer from overture to manage their auctions. Google developed their business models from sound economics
+
+h3. Hadoop story:
+
+* Open source stack for cloud computing
+* big data analysis, big business
+* Connecting IP to business. 
+* Yahoo moved Hadoop out of the company. They could have owned a huge part of data analytics space (still playing out)
+
+h3. social story:
+
+* yahoo and facebook had a handshake deal. They got cold feet, tried to re-negotiate, and that killed the deal... today facebook is going IPO.
+
+h3. GTM
+
+* Sales
+** being analytical can take you very far
+
+* Marketing
+** needs creative ability
+** how you market is how you communicate
+** communicate, it's not simply about building a brand, it's about telling people who you are
+
+* product, marketing, and engineering, are inseparable.
+
+
+h1. Innovation
+
+* American economy is impaired:
+** the only sustainable way to grow economy is via innovation
+
+* key question: How do we drive innovation?
+
+* Innovation is not what innovators do, it's about customers adapting
+** customers can't adapt to a new product every day
+** big question is how to figure out the way that people take up new products
+
+* Innovator's Dilemma: disruption theory
+
+* common patterns of rise and fall
+
+* Governance model: today's killer of innovation
+** too much power to share holders
+** they're all short term
+** long term agenda and stockholder interests are decoupled
+
+* Google and Facebook
+** good planning of shareholder, and board structure, so that there isn't such a conflict between shareholders and long term company health.
+
+
+h1. Scaling in Large Organization
+
+* being able to call bullshit is incredibly important (it's not just going to take a week!)
+* to scale within R&D, build depth.
+* management talent
+* incentive engineering
+
+
+h1. Skills and Orientation
+
+h3. Skills
+
+* advice: study economics
+* CS teaches you how to build closed systems
+** however, your product is not a closed syste: your customer has some input!
+** if you're always out of order you'll be out of business
+** economics seems to be the best description of how decisions are made
+
+* advice: study statistics
+
+h3. Orientation
+
+h5. product centricity
+
+* product: w.e. you do you need to be a product person
+* technology is the way to build the product
+* marketing is the way to sell the product
+* everything is around the product.
+* build good intuations, and inspiration will know.
+* great engineers know their products.
+
+h5. speed of learning
+
+* Don't get comfortable
+* if you know how to do your job you're too comfortable
+* solve a metaproblem
+
+h5. get connected
+
+* learn with others
+
+
+h5. Chances favor the prapred minds, and the connected minds
+
+
+h1. Q&A
+
+h2. Q: 
+
+Evergreen study. Follow 200 companies. Success or failure is
+independent of management structure. "What really matters" is the
+information fed to the executives.
+
+h2. Q: how will Bing be different from google and others?
+
+It all depends on what you think search is. (typing key words and
+getting results, or other?). What is search? "Competition of
+understanding user intent... to impart people with information so that
+user can fulfill their purpose... human experience... that's how we
+compete with google"... having a more expansive view of what search
+is.
+
+
+h2. Q: research to product transfer
+
+MSR: Corporate research that advances the fundamental science. Big
+contribution: kinect. There are some people doing research embedded in
+product groups.
+
+
+h2. Q: hiring and retaining top talent. How can large comanies retain top talent?
+
+"Thanks, now I get to do my recruiting speech". At the end of the day
+it boils down to talented people. Microsoft wants its employees to
+
+* be able to solve important problems and have impact
+* work with people that you can learn from
+* ms wants to be a life long learning institution
+
+
+Competition on search: not just a job. third order effects, can really influence society. really big emphasis on doing the right thing, competition will help society.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
