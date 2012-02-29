@@ -9,3 +9,7 @@ Here's something exiting happening on the side:
 *"Hardware Hackathon":http://ptonhacks.net*
 
 I was able to secure some funding from the "Keller Center's":http://commons.princeton.edu/kellercenter/index.html Norman D. Kurtz '58 Fund (awesome place for students to receive support on entrepenurial pursuits). The idea is to have small groups of students submit project proposals for projects that will cost <= $200, we'll buy the components and provide tools and space, then participants will hack away and bring their creations to life during the hackathon weekend. What kinds of projects are we looking for? Simple projects that can be put together over a weekend, we were inspired by projects based on the arduino but we won't limiting projects strictly to that. Checkout "ptonhacks.net":http://ptonhacks.net . The hackathon is scheduled for the Spring of 2012.
+
+*"Senior Independent Work":http://godiego.org/iw.html*
+
+As part of my IW in the CS department I'm working on a software project for signal detection. I want to make a tool that records a signal, and then detects it in a constant stream of data.  It is an interesting problem I came across while working at "wattvision":http://wattvision.com in the summer of 2011. My advisor is "David Blei.":http://www.cs.princeton.edu/~blei/
