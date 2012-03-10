@@ -41,3 +41,8 @@ There is a lot of detail in what was presented above, but I think I see the big 
 The main benefit of today's meeting was getting more concrete on the model I'll need to work with: Factorial model, and possibly Factorial HMM.
 
 So for my presentation next week I'll need to understand the assumptions behind factorial models. An implementation for a factorial model in this context would be solid, an outstanding job would be a full factorial HMM treatment. Beyond the scope of a single semester is having a model that can have an adjustable number of additive distributions (e.g. appliances)
+
+to read:
+
+"factorial hmm's":ftp://publications.ai.mit.edu/ai-publications/pdf/AIM-1561.pdf
+"additive factorial hmms":http://people.csail.mit.edu/kolter/lib/exe/fetch.php?media=pubs:kolter-aistats12.pdf
