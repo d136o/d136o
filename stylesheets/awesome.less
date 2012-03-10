@@ -30,10 +30,24 @@ div#container {
 
 header {
     text-align: center;
-    font-size: xx-large;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    font-size: large;
 }
+
+.nav-pills > li > a {
+    text-decoration: none;
+}
+
+.nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs {
+    text-align:center;
+}
+
 
 .btn:first-child {
     text-decoration: none;

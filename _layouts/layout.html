@@ -44,27 +44,31 @@
 	
       <!--img src='/images/brown_banner.gif'-->
 
-      <div name='menu_bar'>
+      <!--div name='menu_bar'-->
+
+      <ul class='nav nav-pills'>
 
       {% if page.title == 'Home' %}
-      <span ><a class='btn btn-primary' href='/'>Diego</a></span>
+      <li class='active' ><a href='/'>Diego</a></li>
       {% else  %}
-      <span ><a class='btn' href='/'>Diego</a></span>
+      <li ><a class=' ' href='/'>Diego</a></li>
       {% endif %}
 
       {% if page.title == 'Projects' %}
-      <span ><a class='btn btn-primary' href='/projects.html'>Projects</a></span>
+      <li class='active' ><a href='/projects.html'>Projects</a></li>
       {% else  %}
-      <span ><a class='btn' href='/projects.html'>Projects</a></span>
+      <li ><a class=' ' href='/projects.html'>Projects</a></li>
       {% endif %}
 
       {% if page.title == 'About' %}
-      <span ><a class='btn btn-primary' href='/about.html'>About</a></span>
+      <li class='active'><a  href='/about.html'>About</a></li>
       {% else  %}
-      <span ><a class='btn' href='/about.html'>About</a></span>
+      <li ><a class=' ' href='/about.html'>About</a></li>
       {% endif %}
       
-      </div>
+      </ul>
+      
+      <!--/div-->
       </nav>
 
     </header>
