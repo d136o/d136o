@@ -1,0 +1,14 @@
+---
+layout: mathy
+title: regression
+---
+
+h3. Q: What is linear regression?
+
+Say you have a set of training data \(X_D = \{ X_1, X_2, ... , X_p \}\), and corresponding \(Y_i\), where  \( i \in [1, p] \), which are the observed "output" for each of the training inputs.
+
+You want to come up with a function \(f(X)\) that you can use for future input vectors that might not have been in your input training set. In _linear regression_ you end up coming up with such a function, but make it be in the form
+
+\[
+f(X) = \beta_0 + \sum_{j=0}^{p} X_j \beta_j
+\]
