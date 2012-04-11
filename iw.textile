@@ -16,7 +16,7 @@ and the papers:
 * "Online Variational Inference for the Hierarchical Dirichlet Process":http://www.cs.princeton.edu/~chongw/papers/WangPaisleyBlei2011.pdf
 * "Stochastic Variational Inference":http://www.cs.princeton.edu/courses/archive/fall11/cos597C/reading/Blei2011.pdf
 
-h3. Meeting on 3/28/2011
+h3. Meeting on 2/28/2012
 
 In preparation for this meeting I read the notes on variational inference, and the draft of stochastic variational inference. Variational inference is a technique used to fit a model, i.e. when you have some data and a distribution model with some parameters it helps you find values for those paramenters.
 
@@ -46,3 +46,15 @@ to read:
 
 "factorial hmm's":ftp://publications.ai.mit.edu/ai-publications/pdf/AIM-1561.pdf
 "additive factorial hmms":http://people.csail.mit.edu/kolter/lib/exe/fetch.php?media=pubs:kolter-aistats12.pdf
+
+h3. Meeting on 3/6/2012
+
+
+h3.  3/23/2012
+
+* Ok, now plan is to follow the Kolter paper and apply to wattvision data. Need to:
+** Write up EM to put in Background section. 
+** Thesis will start by introducing Hidden Markov Models, and dig into Factorial Hidden Markov model
+** 
+
+h3. Draft due on 3/30/2012
