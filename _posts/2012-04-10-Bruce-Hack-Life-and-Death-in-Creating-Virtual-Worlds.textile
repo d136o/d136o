@@ -1,0 +1,69 @@
+---
+layout: post
+date: 2012-04-10
+title: "Bruce Hack, Life and Death in Creating Virtual Worlds"
+---
+
+*comments:* He was a very effective speaker, soft spoken and with accentuated pauses that drew in the audience. In joining a budding company after graduation, my main takeaway is: make sure to invest in that which over time builds a competitive advantage. Also, be strategic, which doesn't mean have meetings about "cutting costs." Instead, be deliverate about the course of action, about what you're doing that your competitor can't do. Do things better, and work hard to over time leave your competitor behind.
+
+Another interesting subpoint he brought up was about _speed of learning_. This is something that Qi ("from microsoft":/2012/02/21/Qi-Lu.html) brought up in his talk. Beyond attempting to achieve an edge by learning faster than competitors, ideally we can learn from our past. On business development cycles his advice seems to be: iterate quickly, but not so quickly that you don't leave time to look back and learn from previous actions.
+
+
+h3.  Business principles as they relate to WoW
+## Network Effects (game attributes were optimized to improve as network of users grew)
+##* graphics (simple enough to be played across a dial up)
+##* globalization (wanted game to grow as fast as possible)
+##* Pricing (most important aspect... priced at parity to established competing games).
+##*** in most nights of 2006 there were more than 10^6 people playing WoW at once
+## high fixed Costs
+##* Strategy: invest in the right fixed cost assets to drive up barrier to entry
+##* Player management: player support.
+##* network operations: data centers. no delay in game play
+##* Sales: Tuesday of launch at 3k locations, 100's of buyers at each location.
+## Consumer Captivity
+### Customer Habits
+###* item ownership (players associate value with virtual goods, attachment)
+###* regional events: crowd equivalent to 1% of the seul population would turn out. 
+### Switching Costs
+###* you learn platform, and get used to it. changing a platform means relearning control.
+###* what blizzard did: bring in social, you have to leav your friends behind if you leave the game
+###* 
+## Effectiveness Advantages
+### Proprietary Technologies
+###* invest heavily and obtain patent
+###* blizzard: focused on database management, webapp development, and tools
+###* natur of game is essentially a database: if you can mine that database you are getting at the essence of the game
+###* tools: make live changes to the game, cut out customer loss streams, and re-route users to parts where you won't lose as many players
+### _Learning_
+###* ability to move through the learning curve faster than competition
+###* launches were speedy, but not so speedy that blizzard couldn't learn from previous deployments
+### Unique assets:
+###** culture
+###** brand: Blizzard was crafted to have no rival, and didn't
+###** franchises: wow, diablo, starcraft. All other projects killed. united via battle.net
+###** knowledge: very high employment retention rate
+
+
+h3. The 3 main points points. Creating a company that produces top notch video games:
+* complicated
+* not luck
+* least visibly: exercise in building real competitive advantage
+
+
+* Q: what areas did they invest in to build up a competitive advantage?
+** customer service: win on quality and service
+** datacenter, servers 
+
+He recommended a book titled *The Curse of the Mogul*
+
+
+
+
+
+
+
+
+
+
+
+
