@@ -1,0 +1,12 @@
+---
+layout: layout
+title: notes
+---
+
+    <ul>
+      {% for note in site.notes %}
+      <li>
+	<span>{{ note.date | date: "%B %e, %Y" }}</span> <a href="{{ note.url }}">{{ note.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>

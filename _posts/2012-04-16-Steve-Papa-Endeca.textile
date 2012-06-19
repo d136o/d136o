@@ -1,0 +1,59 @@
+---
+layout: layout
+title: "Steve Papa, Endeca CEO"
+---
+
+* if it's more than 3 clicks away you can't monetize it
+
+h3. Endeca: how do you get to a 1.1 Billion aquisition?
+
+* they became a platform kind of by accident, after tech crash they were simply solving any problem clients could throw at them
+* painkiller or vitamin?
+* Macro-economic issues make a big difference for small businesses.
+* "our success in ecommerce clouded our ability to see how we could be successful outside of that"
+* in e-commerce you sell to businesses and developers
+* IT doesn't want to be in the business of software development
+* One of the challenges of product management: you're always thinking of the customers you have, but we need to really think of the ones we don't have!
+
+h2. main lessons:
+
+* ideas are not in short supply, ideas vs execution
+* there is a middle ground: "figuring it out" is the fulcrum between those two
+** early customers might not alwyas be right
+** experience must be placed in context: success in one contest doesn't ncessarily translate into success in another
+** timing, territory, and talent
+* the process of starting a business is summarized by *"the relentless pursuit of credibility"*
+
+h2. general principles taught, learned, and earned
+
+* pursue markets you are passionate about
+* sidestory: lol "pinterest of interior designers"
+* on the current bubble
+** "the crash will be painful"
+** "early 90's same thing happened with hardware"
+** "the best measure is when you drive on 101, look at how much traffic there is"
+** "do busines in Boston, silicon valley is toxic for anything long term"
+
+h2. Product Development in the Real World
+
+*
+
+h2. Product Managing/Architecting a "business"
+
+* culture doesn't just happen
+* credibility doesn't just happen
+
+h2. Thinking about careers
+
+* Macro trends matter: "plastics" vs aerospace vs internet bubble
+* Princeton in the Nation's Service
+
+
+
+
+
+
+
+
+
+

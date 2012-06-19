@@ -1,0 +1,102 @@
+---
+layout: post
+title: John Hennessy - Guest Lecturer
+---
+
+h1. Challenges of growing a startup
+
+* Google and Facebook are by far the exceptions
+
+
+
+h2. Finding an appropriate busines model
+
+* as technologists, we tend to focus on the tech. However finding the business models can be as or harder than the business plan
+
+
+h2. MIPS
+
+* founded before there was the idea of fabless chip companies
+** companies like qualcomm didn't exist
+* turned out to be the hardest part for MIPS. Companies weren't willing to simply buy chip designs
+
+p. Yahoo was spun out of the university, before it had a business model. Sequoia helped them figure it out. Paypal, had an unviable business model to start with.
+ 
+
+h2. Scaling, going beyond the first product
+
+* the game has only begun with a first successful product
+* rarely are companies successful with only their first product
+
+h2. Finding management talent
+
+* it's hard to management of the same caliber as the techinical team
+* it's often the case that the initial management team is not the same team that takes a company to scale
+* In case of MIPS:
+** first CEO was great for the start of the company
+** however, the company wasn't moving quickly after a while
+** not enough agressiveness
+* founders of MIPS were not the management types
+* without Sheryl facebook doesn't work
+* nobody would have executed as well as Schmidt
+
+h2. Sales
+
+* good sales people are worth their weight in gold
+* hard to find and hard to gauge
+
+h2. Growing at the right speed
+
+Building the company at the right speed can also be a challenge:
+
+* if you try to build out the company too fast, you might build out marketing and sales force before you have a technology
+** This can result in layoffs: terrible for startup morale
+* you can also grow the business part too slowly, and have a product that you can't sell!
+* it's a great balancing act
+
+h2. Being adaptive
+
+* Apharos had a two year technology lead, but got cut by about 50% due to economic slowdown
+* competition changes
+** at the outset, the competition is soft
+** however, competition can pickup quickly
+* Apharos quickly 
+
+
+h2. Post IPO
+
+first remark:
+
+* the public ipo market for companies without revenue models is going to collapse, simply based on what we saw last time. 
+
+Then, when you've gone public, how do you continue to grow?
+
+* as the company grows, the core market can't support the whole company
+* once everyone has a pc, the market for pc's doesn't grow that quickly
+
+some companies then turn to acquisition models in order to grow
+
+h2. other points
+
+* fostering future management: startups often fail at doing this
+** even in academia, this mentorship doesn't just happen
+
+
+
+
+h3. Questions:
+
+h4. Q: when do you buck the trend? 
+
+MIPS was started by reluctant entrepreneurs. They realized that if they didn't take this technology out of academia, nobody was going to pick it up. 
+
+h4. Q: Role of university president in fostering entrepreneurial culture
+
+
+
+
+h3. Possible Questions
+
+* Read some notes about power law distribution on startup returns
+* open hardware
+* you've been around more than one boom/bust cycle, can you give us some context about what is happening now, and what you see is going to happen in the near future

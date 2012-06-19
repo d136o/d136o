@@ -1,0 +1,17 @@
+---
+layout: layout
+---
+
+For one of this semester's final projects we have to come up with a company, and I suggested to an electrical engineer friend of mine that we come up with a hardware company. She replied saying that she's not really a hardware person, and wanted to do something else. I realized I hadn't been clear enough, and sent her this email in reply:
+
+bq.. "When I say hardware I didn't necessarily mean let's break out the soldering irons and build a circuit. I'm thinking more along the lines of using existing electronics to interact with people/places/things in different ways than what we usually see people do. I think it's important to break out of the browser, and try to do something original, there's only so many social/mobile/local things people can do (and ok fine, maybe there's a great number, but it's easier to stand out when you're doing something that's completely different).
+
+Here's a recent example in the news recently: http://tagtile.com/ , just acquired by facebook.
+
+Here's another example of a company (arguably) working with "hardware" that's growing quickly: http://www.crunchbase.com/company/e-la-carte
+
+So yeah, you don't even have to do something completely new, with hardware you might simply be able to "update" the way usual things/actions are being done...
+
+anyways, just food for thought.
+
+Good luck with the project!"

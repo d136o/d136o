@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Startup advice from Prof JP"
+---
+
+h3. Scaling a Business
+
+* understand why customers buy/use your product?
+* don't scale by doing more things
+
+h3. Case Study: RightMedia 
+
+* They built an add network for add networks. But: how do you get people to join your platform?
+** go for the losers first!
+** the ones that are a little desperate to make some revenue from anywhere
+** You won't get the biggest ones, but there's a lot to be made from "the tails" 
+
+* right media acquisition
+** built up some tech
+** the profit was pure business negotiation and leverage

@@ -1,0 +1,9 @@
+---
+layout: layout
+title: Urs Hozle - Open Flow
+---
+
+h2. Switching to OpenFlow
+
+* Change to their network infrastructure allowed network to be programmed on software, as opposed to hardware.
+* 

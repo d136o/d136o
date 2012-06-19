@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: mathy
 title: Senior IW
 ---
 
@@ -58,3 +58,50 @@ h3.  3/23/2012
 ** 
 
 h3. Draft due on 3/30/2012
+
+
+h3. Update
+
+Ok, so my iw has become mainly a close reading of the Kolter Factorial HMM paper, I'll feed it wattvision data and see how things work out. Part of what I have to do is to create "empirical HMM" models of appliances running in a household. Here's how Kolter and co came up some empirical HMMs from raw data.
+
+First, smooth it: using "total variation regularization":http://en.wikipedia.org/wiki/Total_variation_denoising . In a few words:
+
+# we want a transformation of the time points, how do we judge what a good transformation is?
+# we minimize the RSS, i.e. we want our transformation to be close to our original signal
+# we penalize proportional to the Total Variation, defined as the absolute value of the difference between successive time points:
+\[
+V(Y) = \sum_{1 < i < |Y|} |y_i - y_{i-1}|
+\]
+# We end up minimizing:
+
+notextile. \[  RSS(Y, X) + \lambda V(Y) \]
+
+** Notice the similarity to ridge and/or lasso regression. Kolter mentions that this is equivalent to placing a Laplacian prior on the data (... and then presumably performing MAP estimation...)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
