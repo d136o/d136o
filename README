@@ -1,3 +1,12 @@
 This is Diego's homepage. 
 
 It uses Jekyll, the static site generator, in an attempt to keep it clean and simple.
+
+This is how you build it:
+
+    sudo docker build -t godiego-org ./
+    sudo docker tag godiego-org us.gcr.io/godiego-org/prod
+    gcloud docker push us.gcr.io/godiego-org/prod
+    kubectl rolling-update godiego-controller --image=us.gcr.io/godiego-org/prod
+
+Note that tag name above must be different from what's currently live.

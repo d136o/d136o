@@ -1,0 +1,9 @@
+---
+layout: post
+title: Back Online!
+---
+
+After a brief hiatus godiego.org is back online!
+
+godiego.org has moved to a new cloud and is again raining upon us all of its outdated html and css :)
+
