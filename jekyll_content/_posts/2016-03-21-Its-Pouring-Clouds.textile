@@ -1,0 +1,9 @@
+---
+layout: post
+title: It's Pouring Clouds
+---
+
+What is Docker and how do you get one on the cloud?
+
+Update: I wrote the one sentence above when I first moved this static site to run on a container deployed to Google's Container Engine. Take a look a the source and ["this post with more context":{% post_url 2016-08-15-Containers %}]
+

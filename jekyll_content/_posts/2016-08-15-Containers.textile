@@ -1,0 +1,69 @@
+---
+layout: post
+title: How I Got To Containers
+published: true
+---
+
+When I started working at my previous company there was nothing that resembled a local working environment. A nice shell script would pull, rsync, and apache graceful to get your changes out. You had to fend for your self if you wanted to entertain the thought of running locally or maybe run some tests.
+
+Docker containers were just starting to gain traction at the time[1] and I used them to civilize my work a bit. Containers became my defacto tool for anything that I needed to wrap up and run repeatedly and reliably. Two years passed, and my usage of containers evolved along with the tools supporting them, here I hope to describe here how they were useful for me and hopefully convince any holdouts to give them a shot.
+
+h3. What the heck is a container?
+
+Start by thinking of chroot, an independent filesystem. An _image_ is an accumulation of changes to a file system, a _Dockerfile_ are the commands that evolve an image to produce another image; i.e. each command in a Dockerfile changes an image and generates a new image, kind of like layers on a cake. You can _name_ and _tag_ images for future use.[2]
+
+When you run a container you run an executable that is only able to access the filesystem provided by its starting image. The executable can go on to change that filesystem if it wanted to, run in a never ending while loop, and maybe eventually exit; or not! It's a program, it can calculate anything it wants to! The idea here is that if you want to run the program again and get the same deterministic results, you'd run your command on the original image, not on the one that has accumulated changes or anything else. You get as close as possible to identical starting conditions.
+
+This is very similar to VM images that a VM would boot into (say an AMI on Amazon's AWS) but the interesting thing here is that they don't run a full blown operating system and that one host can run multiple containers.
+
+Another key difference between a container and a VM is that the container is pretty much only running the one executable you kick it off with. It can of course fork and spawn other processes, but if you run a @```docker top $container_name```@ or a @```ps aux```@ within the container you will only see the processes you've kicked off originally, not the million other ones you see when you do a @ps aux@ on your server, laptop, raspberry pi.
+
+What's going on here is that you only need one operating system that can provide all the isolation between processess, file systems, and other networking resources, instead of having one physical machine support multiple operating systems for isolation. In a way the isolation is a bit more fine grained.
+
+A little bit of extra sauce is that your container gets its very own IP address, and you can do things like run a webserver in it and serve up a website. This extra networking bit makes docker super easy to work with on a single host.
+
+h3. Docker on Single Host
+
+Pretty much the first thing you can do with Docker is to have it run a simple website. A static site is super simple, you just need one container that will run the Apache/Nginx processes and serve up the static files from your image. Spoiler alert: this site is now served up from a docker container, poke at its source to see how it works.
+
+A more thorough website will have more than just static content, it'll have a DB like mysql for keeping track of users/items/stuff and maybe something like redis for caching or ElasticSearch for searching free text. In a prod environment you will usually run these on their own hosts, but to spin up a quick dev replica of your website you can separate these out into different containers.
+
+Besides a full blown packaging for components that would power something like a website, Docker was a nice tool to reliably pack up things like python jobs that needed to do some data processing, perhaps spinnning up jobs on EMR to do a lot of the heavy lifting.
+
+Here are the different flavors of programs that I ran on a single host where Docker containers helped me keep things clean and replicable:
+
+* Development environment for website where I had one container for each of its pieces:
+** one ES container node
+** one MySQL container node
+** one Apache + Redis container node (I ran out of time there, but splitting redis up was the next move)
+
+* Production environment for simple REST API server that we called an Internal API
+** prod data stores were still MySQL/Redis sitting elsewhere, but this webserver was a simple python Flask app that would call out to them
+
+* Python scripts that would call to AWS and spin up EMR nodes for data processing. After the heavy lifting was done in EMR I'd have a file I wanted to process further or do anything else for which a cluster was overkill
+** these Python scripts had a set of dependent libraries, and having their specific versions @pip install@ed into the container kept every single dependency explicitly declared in Docker file
+
+* Python scrips that would make use of specific hardware
+** Some of the jobs we had trained a neural network and leveraged a GPU that we had on our local towers. It's one of those things where people (read Data Science folks) often say "it works on my machine" and call it a day, but putting in the work and having it in a container made it reproducible across machines/devs
+
+* Local development environment for Apache Spark
+** For an onboarding assignment for the DS team I built out a little Yarn cluster that would run Sprak jobs and allow a starting dev to wrap their head around Spark without having deal with AWS+EMR at the same time
+
+Pretty soon we had a good number of containers doing useful work, realiably, and mostly on a single box. In other words, we got pretty far with vanilla Docker. However, very quickly you hit the limits of that model:
+
+* you have a multitude of containers, each one does something very useful, now you have one more and you need it to run and you really don't care where the heck it runs. Sure you can spin up a new host and just throw it on there, but it'd be nice to have something to manage that pool of servers you start to have
+* you get resource bound (disk, ram, or cpu), and the containers start to get into each other's way
+* you have a distributed application, a website in prod is an example of this, in prod you can't to run all the pieces in one place (say ES or Redis run as a cluster to enable fallback) and they all need to talk to each other
+
+It's here where people go looking around for some of the fancier container run time solutions, Kubernetes, CoreOS, and others. You're going to want a devops team (a knowleadgeable team member at the very least) for that.
+
+Nonetheless, containers can be very useful way before you get to the fancy cluster stage. They make your work replicable and reliable, and in a way give programmers a bit of devops discipline and empowerment. Try them out. [3]
+
+
+<hr/>
+
+fn1. or they had enough traction to seem like a sane choice for someone running ubuntu on their laptop
+
+fn2. See ["docker's glossary":https://docs.docker.com/engine/reference/glossary/] for more definitions.
+
+fn3. For kicks I moved this static site to run in a container thrown into google's Google Container Engine. Poke around source/readme to see all config required, pretty straightforward imo, and it feels more cleaned up than I ever had the VM where I ran godiego.org previously. 

@@ -3,6 +3,12 @@ layout: layout
 title: About
 ---
 
-I'm a Computer Science student graduating in 2012. In terms of academics, I tried out many subjects during my undergrad years. I did lab work for two summers, one in an evolutionary biology lab, and another in a biophysics lab. Then I tried physics out, but really it takes a lot to be a mad scientist. Finally, I decided to settle on CS after spending a summer coding with two great friends. During the summer of 2011 I was learning and programming for a great startup, "wattvision.com":http://wattvision.com .
+I live and work in Los Angeles.
+
+I worked for "tradesy.com":https://www.tradesy.com until August 12th 2016. There I had the luck of having various interesting problems to work on. The glamorous bits: flagging fraud with logistic regression, writing spark jobs for crunching through logs, training neural nets to classify images, hiring some really talented teammates. 
+
+I studied Computer Science in college. In terms of academics, I tried out many subjects during my undergrad years. I did lab work for two summers, one in an evolutionary biology lab, and another in a biophysics lab. Then I tried physics out, but really it takes a lot to be a mad scientist. Finally, I decided to settle on CS after spending a summer coding with two great friends. During the summer of 2011 I was learning and programming for a great startup, "wattvision.com":http://wattvision.com .
 
 I'm interested in all things tech/science and am a big fan of xkcd.
+
+Reach out via email, [my name]@go[my name].org

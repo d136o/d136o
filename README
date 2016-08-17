@@ -10,3 +10,27 @@ This is how you build it:
     kubectl rolling-update godiego-controller --image=us.gcr.io/godiego-org/prod
 
 Note that tag name above must be different from what's currently live.
+
+To develop locally docker build the image and then run:
+
+To 
+
+    docker run -it -v $godiego_org_home:/tmp/godiego-org:rw --publish=127.0.0.1:4000:4000 --publish=127.0.0.1:80:80 --name="removeme" test bin/bash
+
+Then:
+    # source /usr/local/rvm/scripts/rvm
+    # cd /tmp/godiego-org/projects/godiego-org/godiego-org-original/jekyll_content
+    # jekyll serve -H 0.0.0.0 -w
+    
+
+
+Common errors:
+
+If you're not running docker 24/7:
+
+systemctl restart docker
+
+
+Things to Remember:
+
+using textile flavored markup syntax

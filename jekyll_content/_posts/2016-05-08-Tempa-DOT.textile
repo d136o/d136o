@@ -1,0 +1,21 @@
+---
+layout: post
+title: Tempa.Dot
+---
+
+<a href="https://www.dropbox.com/s/ebrzjhtdx4jrjmv/2016-05-08%2018.13.06.jpg?dl=0">
+<img src="https://www.dropbox.com/s/a10dp3npx8psaue/resized.jpg?dl=1"> 
+</a>
+
+Earlier this year I went to the doctor to get my temperature checked and they used one of these nifty Tempa.Dots. I found it so cool that I kept one and brought it home with me, and it cluttered my desk for months.
+
+Today, as I cleaned up my desk I decided to search how the Tempa.Dot works, and came across a study[1] showing that medical staff can't read the things accurately!
+
+They tested staff of the same hospital at different times; when the hospital started using the thermometers and three years later. Although the sample size of staff tested seems small, 78 nurses, less than half read the thermometer correctly.
+
+If you look at how the thermometer is supposed to be read, you'll see why the most common mistaken readings were off by .1 or .4 degrees Celcius (unfortunately the thermometer linked here presents in degrees Farenheit).
+
+The unit differences are interesting. In the British Tempa.Dot each dot denotes a change in .1 degree Celcius, or almost .2 degrees Farenheit (when you multiply by 9/5), but in the US version, each dot is .2 degrees farenheit. Although that would almost lead you to think that we're at least as well off as the Brits, it seems that sadly "Kings College Hospital no longer uses the Tempa.Dot thermometer."
+
+[1]: http://ageing.oxfordjournals.org/content/34/3/297.full.pdf "The use of the Tempa.Dot thermometer in routine clinical practice"
+
