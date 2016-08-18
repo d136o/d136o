@@ -34,3 +34,9 @@ systemctl restart docker
 Things to Remember:
 
 using textile flavored markup syntax
+
+Things to Remember on gcloud deployment:
+
++ gcloud components install kubectl
++ gcloud container clusters get-credentials godiego-org-cluster
++ kubectl config set-cluster godiego-org-cluster
